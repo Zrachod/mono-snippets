@@ -30,13 +30,13 @@
         "color": "#658be3",
         "theme": "light"
     },
-    "homepage": "https://github.com/Zrachod/Splus/blob/master/README.md",
+    "homepage": "https://github.com/Zrachod/mono-snippets/blob/master/README.md",
     "bugs": {
-        "url": "https://github.com/Zrachod/Splus/issues",
+        "url": "https://github.com/Zrachod/mono-snippets/issues",
         "email": "zrachod@gmail.com"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/Zrachod/Splus"
+        "url": "https://github.com/Zrachod/mono-snippets"
     }
 }
