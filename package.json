@@ -1,6 +1,6 @@
 {
     "name": "mono-snippets",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "publisher": "zrachod",
     "engines": {
         "vscode": "*"
@@ -27,8 +27,8 @@
     },
     "icon": "icon.png",
     "galleryBanner": {
-        "color": "#658be3",
-        "theme": "light"
+        "color": "#98b7ff",
+        "theme": "dark"
     },
     "homepage": "https://github.com/Zrachod/mono-snippets/blob/master/README.md",
     "bugs": {
