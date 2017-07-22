@@ -1,0 +1,643 @@
+{
+	"Awake": {
+		"prefix": "Awake",
+		"body": [
+			"void Awake()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "void Awake"
+	},
+	"OnEnable": {
+		"prefix": "OnEnable",
+		"body": [
+			"void OnEnable()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnEnable"
+	},
+	"Start": {
+		"prefix": "Start",
+		"body": [
+			"void Start()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Start"
+	},
+	"FixedUpdate": {
+		"prefix": "FixedUpdate",
+		"body": [
+			"void FixedUpdate()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "FixedUpdate"
+	},
+	"LateUpdate": {
+		"prefix": "LateUpdate",
+		"body": [
+			"void LateUpdate()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "LateUpdate"
+	},
+	"OnAnimatorIK": {
+		"prefix": "OnAnimatorIK",
+		"body": [
+			"void OnAnimatorIK()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnAnimatorIK"
+	},
+	"OnAnimatorMove": {
+		"prefix": "OnAnimatorMove",
+		"body": [
+			"void OnAnimatorMove()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnAnimatorMove"
+	},
+	"OnApplicationFocus": {
+		"prefix": "OnApplicationFocus",
+		"body": [
+			"void OnApplicationFocus()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnApplicationFocus"
+	},
+	"OnApplicationPause": {
+		"prefix": "OnApplicationPause",
+		"body": [
+			"void OnApplicationPause()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnApplicationPause"
+	},
+	"OnApplicationQuit": {
+		"prefix": "OnApplicationQuit",
+		"body": [
+			"void OnApplicationQuit()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnApplicationQuit"
+	},
+	"OnAudioFilterRead": {
+		"prefix": "OnAudioFilterRead",
+		"body": [
+			"void OnAudioFilterRead()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnAudioFilterRead"
+	},
+	"OnBecameInvisible": {
+		"prefix": "OnBecameInvisible",
+		"body": [
+			"void OnBecameInvisible()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnBecameInvisible"
+	},
+	"OnBecameVisible": {
+		"prefix": "OnBecameVisible",
+		"body": [
+			"void OnBecameVisible()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnBecameVisible"
+	},
+	"OnCollisionEnter": {
+		"prefix": "OnCollisionEnter",
+		"body": [
+			"void OnCollisionEnter(Collision ${1:collisionInfo})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnCollisionEnter"
+	},
+	"OnCollisionExit": {
+		"prefix": "OnCollisionExit",
+		"body": [
+			"void OnCollisionExit(Collision ${1:collisionInfo})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnCollisionExit"
+	},
+	"OnCollisionStay": {
+		"prefix": "OnCollisionStay",
+		"body": [
+			"void OnCollisionStay(Collision ${1:collisionInfo})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnCollisionStay"
+	},
+	"OnTriggerEnter": {
+		"prefix": "OnTriggerEnter",
+		"body": [
+			"void OnTriggerEnter(Collider ${1:other})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTriggerEnter"
+	},
+	"OnTriggerExit": {
+		"prefix": "OnTriggerExit",
+		"body": [
+			"void OnTriggerExit(Collider ${1:other})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTriggerExit"
+	},
+	"OnTriggerStay": {
+		"prefix": "OnTriggerStay",
+		"body": [
+			"void OnTriggerStay(Collider ${1:other})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTriggerStay"
+	},
+	"OnCollisionEnter2D": {
+		"prefix": "OnCollisionEnter2D",
+		"body": [
+			"void OnCollisionEnter2D(Collision2D ${1:collisionInfo})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnCollisionEnter2D"
+	},
+	"OnCollisionExit2D": {
+		"prefix": "OnCollisionExit2D",
+		"body": [
+			"void OnCollisionExit2D(Collision2D ${1:collisionInfo})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnCollisionExit2D"
+	},
+	"OnCollisionStay2D": {
+		"prefix": "OnCollisionStay2D",
+		"body": [
+			"void OnCollisionStay2D(Collision2D ${1:collisionInfo})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnCollisionStay2D"
+	},
+	"OnTriggerEnter2D": {
+		"prefix": "OnTriggerEnter2D",
+		"body": [
+			"void OnTriggerEnter2D(Collider2D ${1:other})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTriggerEnter2D"
+	},
+	"OnTriggerExit2D": {
+		"prefix": "OnTriggerExit2D",
+		"body": [
+			"void OnTriggerExit2D(Collider2D ${1:other})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTriggerExit2D"
+	},
+	"OnTriggerStay2D": {
+		"prefix": "OnTriggerStay2D",
+		"body": [
+			"void OnTriggerStay2D(Collider2D ${1:other})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTriggerStay2D"
+	},
+	"IEnumerator": {
+		"prefix": "IEnumerator",
+		"body": [
+			"IEnumerator ${1:functionName}($2)",
+			"{",
+			"\t$3",
+			"\tyield return null;",
+			"}"
+		],
+		"description": "IEnumerator"
+	},
+	"OnConnectedToServer": {
+		"prefix": "OnConnectedToServer",
+		"body": [
+			"void OnConnectedToServer()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnConnectedToServer"
+	},
+	"OnControllerColliderHit": {
+		"prefix": "OnControllerColliderHit",
+		"body": [
+			"void OnControllerColliderHit(ControllerColliderHit ${1:hit})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnControllerColliderHit"
+	},
+	"OnDestroy": {
+		"prefix": "OnDestroy",
+		"body": [
+			"void OnDestroy()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnDestroy"
+	},
+	"OnDisable": {
+		"prefix": "OnDisable",
+		"body": [
+			"void OnDisable()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnDisable"
+	},
+	"OnDisconnectedFromServer": {
+		"prefix": "OnDisconnectedFromServer",
+		"body": [
+			"void OnDisconnectedFromServer(NetworkDisconnection ${1:info})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnDisconnectedFromServer"
+	},
+	"OnDrawGizmos": {
+		"prefix": "OnDrawGizmos",
+		"body": [
+			"void OnDrawGizmos()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnDrawGizmos"
+	},
+	"OnDrawGizmosSelected": {
+		"prefix": "OnDrawGizmosSelected",
+		"body": [
+			"void OnDrawGizmosSelected()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnDrawGizmosSelected"
+	},
+	"OnFailedToConnect": {
+		"prefix": "OnFailedToConnect",
+		"body": [
+			"void OnFailedToConnect(NetworkConnectionError ${1:error})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnFailedToConnect"
+	},
+	"OnFailedToConnectToMasterServer": {
+		"prefix": "OnFailedToConnectToMasterServer",
+		"body": [
+			"void OnFailedToConnectToMasterServer(NetworkConnectionError ${1:info})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnFailedToConnectToMasterServer"
+	},
+	"OnGUI": {
+		"prefix": "OnGUI",
+		"body": [
+			"void OnGUI()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnGUI"
+	},
+	"OnJointBreak": {
+		"prefix": "OnJointBreak",
+		"body": [
+			"void OnJointBreak()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnJointBreak"
+	},
+	"OnJointBreak2D": {
+		"prefix": "OnJointBreak2D",
+		"body": [
+			"void OnJointBreak2D()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnJointBreak2D"
+	},
+	"OnMasterServerEvent": {
+		"prefix": "OnMasterServerEvent",
+		"body": [
+			"void OnMasterServerEvent(MasterServerEvent ${1:msEvent})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMasterServerEvent"
+	},
+	"OnMouseDown": {
+		"prefix": "OnMouseDown",
+		"body": [
+			"void OnMouseDown()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMouseDown"
+	},
+	"OnMouseDrag": {
+		"prefix": "OnMouseDrag",
+		"body": [
+			"void OnMouseDrag()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMouseDrag"
+	},
+	"OnMouseEnter": {
+		"prefix": "OnMouseEnter",
+		"body": [
+			"void OnMouseEnter()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMouseEnter"
+	},
+	"OnMouseExit": {
+		"prefix": "OnMouseExit",
+		"body": [
+			"void OnMouseExit()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMouseExit"
+	},
+	"OnMouseOver": {
+		"prefix": "OnMouseOver",
+		"body": [
+			"void OnMouseOver()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMouseOver"
+	},
+	"OnMouseUp": {
+		"prefix": "OnMouseUp",
+		"body": [
+			"void OnMouseUp()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMouseUp"
+	},
+	"OnMouseUpAsButton": {
+		"prefix": "OnMouseUpAsButton",
+		"body": [
+			"void OnMouseUpAsButton()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnMouseUpAsButton"
+	},
+	"OnNetworkInstantiate": {
+		"prefix": "OnNetworkInstantiate",
+		"body": [
+			"void OnNetworkInstantiate(NetworkMessageInfo ${1:info})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnNetworkInstantiate"
+	},
+	"OnParticleCollision": {
+		"prefix": "OnParticleCollision",
+		"body": [
+			"void OnParticleCollision(GameObject ${1:other})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnParticleCollision"
+	},
+	"OnParticleTrigger": {
+		"prefix": "OnParticleTrigger",
+		"body": [
+			"void OnParticleTrigger()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnParticleTrigger"
+	},
+	"OnPlayerConnected": {
+		"prefix": "OnPlayerConnected",
+		"body": [
+			"void OnPlayerConnected(NetworkPlayer ${1:player})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnPlayerConnected"
+	},
+	"OnPlayerDisconnected": {
+		"prefix": "OnPlayerDisconnected",
+		"body": [
+			"void OnPlayerDisconnected(NetworkPlayer ${1:player})",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnPlayerDisconnected"
+	},
+	"OnPostRender": {
+		"prefix": "OnPostRender",
+		"body": [
+			"void OnPostRender()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnPostRender"
+	},
+	"OnPreCull": {
+		"prefix": "OnPreCull",
+		"body": [
+			"void OnPreCull()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnPreCull"
+	},
+	"OnPreRender": {
+		"prefix": "OnPreRender",
+		"body": [
+			"void OnPreRender()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnPreRender"
+	},
+	"OnRenderImage": {
+		"prefix": "OnRenderImage",
+		"body": [
+			"void OnRenderImage()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnRenderImage"
+	},
+	"OnRenderObject": {
+		"prefix": "OnRenderObject",
+		"body": [
+			"void OnRenderObject()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnRenderObject"
+	},
+	"OnSerializeNetworkView": {
+		"prefix": "OnSerializeNetworkView",
+		"body": [
+			"void OnSerializeNetworkView(BitStream stream, NetworkMessageInfo info)",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnSerializeNetworkView"
+	},
+	"OnServerInitialized": {
+		"prefix": "OnServerInitialized",
+		"body": [
+			"void OnServerInitialized()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnServerInitialized"
+	},
+	"OnTransformChildrenChanged": {
+		"prefix": "OnTransformChildrenChanged",
+		"body": [
+			"void OnTransformChildrenChanged()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTransformChildrenChanged"
+	},
+	"OnTransformParentChanged": {
+		"prefix": "OnTransformParentChanged",
+		"body": [
+			"void OnTransformParentChanged()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnTransformParentChanged"
+	},
+	"OnValidate": {
+		"prefix": "OnValidate",
+		"body": [
+			"void OnValidate()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnValidate"
+	},
+	"OnWillRenderObject": {
+		"prefix": "OnWillRenderObject",
+		"body": [
+			"void OnWillRenderObject()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "OnWillRenderObject"
+	},
+	"Reset": {
+		"prefix": "Reset",
+		"body": [
+			"void Reset()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Reset"
+	},
+	"Update": {
+		"prefix": "Update",
+		"body": [
+			"void Update()",
+			"{",
+			"\t$0",
+			"}"
+		],
+		"description": "Update"
+	}
+}

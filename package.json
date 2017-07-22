@@ -1,0 +1,42 @@
+{
+    "name": "mono-snippets",
+    "version": "0.0.1",
+    "publisher": "zrachod",
+    "engines": {
+        "vscode": "*"
+    },
+    "displayName": "MonoBehaviour Snippets",
+    "description": "MonoBehaviour Snippets for Visual Studio Code",
+    "categories": [
+        "Languages",
+        "Snippets"
+    ],
+    "keywords": [
+        "C#",
+        "CSharp",
+        "MonoBehaviour",
+        "Unity"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "csharp",
+                "path": "./snippets/csharp.json"
+            }
+        ]
+    },
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#658be3",
+        "theme": "light"
+    },
+    "homepage": "https://github.com/Zrachod/Splus/blob/master/README.md",
+    "bugs": {
+        "url": "https://github.com/Zrachod/Splus/issues",
+        "email": "zrachod@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zrachod/Splus"
+    }
+}
